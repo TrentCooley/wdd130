@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra=Lato:ital,wght@0,400;0,700;1,400&display=swap');; */
+
+
+:root {
+    --primary-color: #52796f;
+    --secondary-color: #84a98c;
+    --accent1-color: #cad2c5;
+    --accent2-color: #354f52;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: ;
+} */
+
+.logo,
+.icon {
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+
+
+body {
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+a:hover,
+.book:hover,
+.join:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+.book,
+.join {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+
+#background {
+    background-color: var(--primary-color);
+}
+
+.msg {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+
+a {
+    color: var(--accent1-color);
+}
+
+
+.icon,
+.logo {
+    width: 80px;
+}
+
+
+footer p {
+    font-size: 1.2em;
+}
+
+
+footer p a:hover {
+    text-decoration: underline;
+}
