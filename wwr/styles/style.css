@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Alkatra=Lato:ital,wght@0,400;0,700;1,400&display=swap');; */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 
 :root {
@@ -6,11 +6,21 @@
     --secondary-color: #84a98c;
     --accent1-color: #cad2c5;
     --accent2-color: #354f52;
+
+    --heading-font: Alkatra, cursive;
+    --paragraph-font: Lato, Helvetica, sans-serif;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-    font-family: ;
-} */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+
+
+section .card-img{
+    border: solid var(--accent2-color) 5px;
+
+}
 
 .logo,
 .icon {
@@ -28,6 +38,7 @@ a {
 
 nav a {
     text-align: center;
+    padding: 5em;
 }
 
 #hero-msg h1,
@@ -37,6 +48,7 @@ nav a {
 
 .button-box {
     text-align: center;
+    margin-bottom: 1em ;
 }
 
 section {
@@ -47,10 +59,9 @@ section {
     height: 725px;
 }
 
-
-
 body {
     background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
 }
 
 header {
@@ -68,6 +79,7 @@ a:hover,
 .join {
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    padding: 5px 30px;
 }
 
 
@@ -78,10 +90,15 @@ a:hover,
 .msg {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-top: 1em;
 }
 
 footer {
     background-color: var(--primary-color);
+    padding: 5px 0px;
+    margin-top: 1em;
 }
 
 
