@@ -200,6 +200,14 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+.river-head{
+
+}
+.river-box{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
