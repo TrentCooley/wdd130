@@ -26,9 +26,82 @@
 }
 
 /* General styles */
+
+.side-by-side {
+  display: flex; /* Use flexbox to align images side by side */
+}
+
+.image-container {
+  flex: 1; /* Allow the images to take equal space in the flex container */
+  padding: 10px; /* Add spacing between images (optional) */
+}
+
+.certificate-image {
+  width: 100%; /* Adjust the width of the images (in this case, full width of the container) */
+  height: auto; /* Maintain the aspect ratio of the images */
+}
+
+
+header {
+  display: flex;
+}
+
+#logo {
+  width: 150px;
+  padding: 10px /* Adjust the width to make the logo smaller */
+}
+
+nav {
+width: 100%;
+align-items: center; /* Center the images vertically */
+}
+
+nav a {
+margin: 5%;
+}
+
+/* Additional styles for the images */
+main img {
+  width: 75%; /* Adjust the width to control the image sizes */
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* Additional styles for the footer */
+footer {
+  background-color: var(--accent2-color); /* Use the same color as the navigation background */
+  color: var(--nav-link-color); /* Use the same color as the navigation link color */
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+
+  align-items: center; /* Center the images vertically */
+}
+
+.footer-logo{
+  width: 200px;
+}
+
+footer a {
+  margin: 0 10px; /* Add some spacing between the social logos */
+}
+
+footer img {
+  width: 60px; /* Adjust the width of the social logos */
+  height: 60px; /* Adjust the height of the social logos */
+
+}
+#linkedin{
+  width: 100px;
+  height: auto;
+}
+
 body {
     background-color:  var(--primary-color); /* Light gray */
-
+    max-width: 1200px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
